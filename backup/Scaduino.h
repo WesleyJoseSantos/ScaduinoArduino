@@ -28,14 +28,12 @@ public:
     //TODO: void sendNumber(int number, uint16_t address);
     //TODO: void sendDecimal(float decimal, uint16_t address);
     //TODO: void sendString(String string, uint16_t address);
-    //TODO: void sendJson(String json, uint16_t address);
 
     byte getByte(uint16_t address);
     //TODO: void getWord(uint16_t word, uint16_t address);
     //TODO: void getNumber(int number, uint16_t address);
     //TODO: void getDecimal(float decimal, uint16_t address);
     //TODO: void getString(String string, uint16_t address);
-    //TODO: void getJson(String json, uint16_t address);
     Scaduino(Communication *communication);
 };
 
